@@ -1,0 +1,26 @@
+{
+  "name": "daonari-loan-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "6.7.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "babel-register": "6.26.0",
+    "body-parser": "1.19.0",
+    "crypto-js": "3.1.9-1",
+    "ethereumjs-tx": "2.1.1",
+    "express": "4.17.1",
+    "truffle": "5.1.2",
+    "truffle-hdwallet-provider": "1.0.17",
+    "web3": "1.2.4"
+  }
+}
